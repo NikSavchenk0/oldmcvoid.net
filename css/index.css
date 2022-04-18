@@ -1,0 +1,62 @@
+.button-collapse {
+    margin-left: 10px;
+    position: absolute
+}
+
+.footer-copyright .copyright {
+    vertical-align: sub
+}
+
+#section-why {
+    margin-bottom: 50px
+}
+
+#section-why .use-api-button {
+    margin-right: 1em
+}
+
+#section-why .col.l3 {
+    padding: 30px 20px
+}
+
+i.benefit-icon {
+    text-align: center;
+    display: block;
+    font-size: 10rem
+}
+
+.jumbotron {
+    background-image: url("../images/wallpaper.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0;
+    text-align: center;
+    text-shadow: 1px 1px 5px #000
+}
+
+.jumbotron h1 {
+    margin: 1.5rem 0
+}
+
+@media only screen and (max-width: 1155px) {
+    i.benefit-icon {
+        font-size: 8rem
+    }
+}
+
+@media only screen and (max-width: 993px) {
+    #section-why h4 {
+        text-align: center
+    }
+    i.benefit-icon {
+        font-size: 10rem
+    }
+    #section-why a.btn {
+        display: block
+    }
+    #section-why .btn {
+        margin-bottom: 1em;
+        margin-right: 0px
+    }
+}
